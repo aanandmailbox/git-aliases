@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Description: A one-line view of the repo's log including branching
+# tree structure.
+#
+# Source: https://github.com/ColinHebert/dotfiles/blob/master/gitconfig
+
+git log --graph --decorate --pretty=oneline --abbrev-commit

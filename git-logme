@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Description: Log me.
+#
+# Source: http://www.mediawiki.org/wiki/Git/aliases 
+
+git log --author=hdpatel --pretty=format:'%h %cd %s' --date=short
+

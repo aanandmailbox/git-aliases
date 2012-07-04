@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# Description: Return the current branch name.
+#
+# Source: http://blogs.gnome.org/danni/2011/03/07/useful-git-aliases/
+
+git for-each-ref --format='%(refname:short)' `git symbolic-ref HEAD`

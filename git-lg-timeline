@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Description: Show timeline log.
+#
+# Source: http://superuser.com/questions/169695/what-are-your-favorite-git-aliases
+
+
+git log --format='%h %an %ar - %s'

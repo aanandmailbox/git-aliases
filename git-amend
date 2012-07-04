@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# Description: Amend to the commit.
+#
+# Source: http://www.mediawiki.org/wiki/Git/aliases
+
+git commit --amend -a
